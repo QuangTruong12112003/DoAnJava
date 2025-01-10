@@ -1,0 +1,2205 @@
+{
+	"info": {
+		"_postman_id": "6868b19c-ab28-42dc-bdca-cf476232fcaf",
+		"name": "APIDACuoiKy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39917123"
+	},
+	"item": [
+		{
+			"name": "APIUsers",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "getAllUser",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getallUser",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getallUser"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insert",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=insertUser&Name=JohnDoe&Email=johndoe@example.com&Password=123456&Role=user",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "insertUser"
+										},
+										{
+											"key": "Name",
+											"value": "JohnDoe"
+										},
+										{
+											"key": "Email",
+											"value": "johndoe@example.com"
+										},
+										{
+											"key": "Password",
+											"value": "123456"
+										},
+										{
+											"key": "Role",
+											"value": "user"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=deleteUser&UserID=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "deleteUser"
+										},
+										{
+											"key": "UserID",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=updateUser&UserID=5&Name=JaneDoe&Email=janedoe@example.com&Password=newpass123&Role=user",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "updateUser"
+										},
+										{
+											"key": "UserID",
+											"value": "5"
+										},
+										{
+											"key": "Name",
+											"value": "JaneDoe"
+										},
+										{
+											"key": "Email",
+											"value": "janedoe@example.com"
+										},
+										{
+											"key": "Password",
+											"value": "newpass123"
+										},
+										{
+											"key": "Role",
+											"value": "user"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUser",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getUser&Email=dh52111975@student.stu.edu.vn",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getUser"
+										},
+										{
+											"key": "Email",
+											"value": "dh52111975@student.stu.edu.vn"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "getall",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getallUser",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insert",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "insertUser",
+											"type": "text"
+										},
+										{
+											"key": "Name",
+											"value": "quangtruong",
+											"type": "text"
+										},
+										{
+											"key": "Email",
+											"value": "dh52111975@student.stu.edu.vn",
+											"type": "text"
+										},
+										{
+											"key": "Password",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "Role",
+											"value": "user",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteUser",
+											"type": "text"
+										},
+										{
+											"key": "UsertID",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateUser",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "Name",
+											"value": "truong",
+											"type": "text"
+										},
+										{
+											"key": "Email",
+											"value": "aaaaa",
+											"type": "text"
+										},
+										{
+											"key": "Password",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "Role",
+											"value": "admin",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getUser",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getUser",
+											"type": "text"
+										},
+										{
+											"key": "Email",
+											"value": "dh52111975@student.stu.edu.vn",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "APIGoals",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "getAllGoals",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getAllGoals&UserID=18",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getAllGoals"
+										},
+										{
+											"key": "UserID",
+											"value": "18"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertGoal",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=insertGoal&UserID=1&GoalTitle=MyGoal&Description=GoalDescription&TargetDate=2024-12-31&Visibility=public&Status=active&Progress=0",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "insertGoal"
+										},
+										{
+											"key": "UserID",
+											"value": "1"
+										},
+										{
+											"key": "GoalTitle",
+											"value": "MyGoal"
+										},
+										{
+											"key": "Description",
+											"value": "GoalDescription"
+										},
+										{
+											"key": "TargetDate",
+											"value": "2024-12-31"
+										},
+										{
+											"key": "Visibility",
+											"value": "public"
+										},
+										{
+											"key": "Status",
+											"value": "active"
+										},
+										{
+											"key": "Progress",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteGoal",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=deleteGoal&GoalID=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "deleteGoal"
+										},
+										{
+											"key": "GoalID",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateGoal",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=updateGoal&GoalID=1&UserID=1&GoalTitle=UpdatedGoal&Description=UpdatedDescription&TargetDate=2024-12-31&Visibility=public&Status=completed&Progress=50",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "updateGoal"
+										},
+										{
+											"key": "GoalID",
+											"value": "1"
+										},
+										{
+											"key": "UserID",
+											"value": "1"
+										},
+										{
+											"key": "GoalTitle",
+											"value": "UpdatedGoal"
+										},
+										{
+											"key": "Description",
+											"value": "UpdatedDescription"
+										},
+										{
+											"key": "TargetDate",
+											"value": "2024-12-31"
+										},
+										{
+											"key": "Visibility",
+											"value": "public"
+										},
+										{
+											"key": "Status",
+											"value": "completed"
+										},
+										{
+											"key": "Progress",
+											"value": "50"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getGoalPublic",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getGoalPublic",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getGoalPublic"
+										},
+										{
+											"key": "Visibility",
+											"value": "public",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "getAllGoals",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getAllGoals",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "insertGoal",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "17",
+											"type": "text"
+										},
+										{
+											"key": "GoalTitle",
+											"value": "MyGoal_post",
+											"type": "text"
+										},
+										{
+											"key": "Description",
+											"value": "GoalDescription_post",
+											"type": "text"
+										},
+										{
+											"key": "TargetDate",
+											"value": "2024-12-31",
+											"type": "text"
+										},
+										{
+											"key": "Visibility",
+											"value": "public",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "active",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteGoal",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "29",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateGoal",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "19",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "18",
+											"type": "text"
+										},
+										{
+											"key": "GoalTitle",
+											"value": "UpdatedGoal",
+											"type": "text"
+										},
+										{
+											"key": "Description",
+											"value": "UpdatedDescription",
+											"type": "text"
+										},
+										{
+											"key": "TargetDate",
+											"value": "2024-12-31",
+											"type": "text"
+										},
+										{
+											"key": "Visibility",
+											"value": "public",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "completed",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "50",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAverageProgressByGoalID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getAverageProgressByGoalID",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "31",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateProgressGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateProgressGoal",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "6",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "20",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getGoal",
+											"type": "text"
+										},
+										{
+											"key": "GoalId",
+											"value": "31",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getGoal",
+											"disabled": true
+										},
+										{
+											"key": "GoalId",
+											"value": "6",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "copyGoal",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "copyGoalDayPlanTask",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "31",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "17",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "APIDayplans",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "getAllDayplans",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getAllDayPlans&GoalID=17",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getAllDayPlans"
+										},
+										{
+											"key": "GoalID",
+											"value": "17"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertDayplan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=insertDayPlan&GoalID=2&Date=2024-12-10&Notes=PlanNote&Status=not-started&Progress=10\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "insertDayPlan"
+										},
+										{
+											"key": "GoalID",
+											"value": "2"
+										},
+										{
+											"key": "Date",
+											"value": "2024-12-10"
+										},
+										{
+											"key": "Notes",
+											"value": "PlanNote"
+										},
+										{
+											"key": "Status",
+											"value": "not-started"
+										},
+										{
+											"key": "Progress",
+											"value": "10\n"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteDayPlan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=deleteDayPlan&DayPlanID=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "deleteDayPlan"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateDayPlan",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=updateDayPlan&DayPlanID=1&GoalID=1&Date=2024-12-15&Notes=UpdatedPlan&Status=completed&Progress=50\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "updateDayPlan"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "1"
+										},
+										{
+											"key": "GoalID",
+											"value": "1"
+										},
+										{
+											"key": "Date",
+											"value": "2024-12-15"
+										},
+										{
+											"key": "Notes",
+											"value": "UpdatedPlan"
+										},
+										{
+											"key": "Status",
+											"value": "completed"
+										},
+										{
+											"key": "Progress",
+											"value": "50\n"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "getAllDayplans",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getAllDayPlans",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertDayplan",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "insertDayPlan",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "Date",
+											"value": "2024-12-10",
+											"type": "text"
+										},
+										{
+											"key": "Notes",
+											"value": "PlanNote",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "not-started",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteDayplan",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteDayPlan",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateDayPlan",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateDayPlan",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "Date",
+											"value": "2024-12-15",
+											"type": "text"
+										},
+										{
+											"key": "Notes",
+											"value": "UpdatedPlan",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "UpdatedPlan&Status=in-progress",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "50",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAverageProgressByDayPlanID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "AverageProgressByDayPlanID",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "44",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateProgress",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateProgressDayPlan",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "42",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "10",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getDayplan",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getDayplan",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "44",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "APITasks",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "getAllTasks",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getAllTasks&DayPlanID=10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getAllTasks"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertTask",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=insertTask&DayPlanID=3&Title=Task+1&Description=Test+Task&Priority=high&Status=pending&Progress=0&StartTime=2024-12-16+09:00:00&EndTime=2024-12-16+10:00:00\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "insertTask"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "3"
+										},
+										{
+											"key": "Title",
+											"value": "Task+1"
+										},
+										{
+											"key": "Description",
+											"value": "Test+Task"
+										},
+										{
+											"key": "Priority",
+											"value": "high"
+										},
+										{
+											"key": "Status",
+											"value": "pending"
+										},
+										{
+											"key": "Progress",
+											"value": "0"
+										},
+										{
+											"key": "StartTime",
+											"value": "2024-12-16+09:00:00"
+										},
+										{
+											"key": "EndTime",
+											"value": "2024-12-16+10:00:00\n"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateTask",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=updateTask&TaskID=1&DayPlanID=3&Title=Updated+Task&Description=Updated+Description&Priority=medium&Status=in-progress&Progress=50&StartTime=2024-12-16+11:00:00&EndTime=2024-12-16+12:00:00\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "updateTask"
+										},
+										{
+											"key": "TaskID",
+											"value": "1"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "3"
+										},
+										{
+											"key": "Title",
+											"value": "Updated+Task"
+										},
+										{
+											"key": "Description",
+											"value": "Updated+Description"
+										},
+										{
+											"key": "Priority",
+											"value": "medium"
+										},
+										{
+											"key": "Status",
+											"value": "in-progress"
+										},
+										{
+											"key": "Progress",
+											"value": "50"
+										},
+										{
+											"key": "StartTime",
+											"value": "2024-12-16+11:00:00"
+										},
+										{
+											"key": "EndTime",
+											"value": "2024-12-16+12:00:00\n"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteTask",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=deleteTask&TaskID=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "deleteTask"
+										},
+										{
+											"key": "TaskID",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ThongKe",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getGoalsOverview&UserID=18",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getGoalsOverview"
+										},
+										{
+											"key": "UserID",
+											"value": "18"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ThongKeTask",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getTasksOverview&UserID=18",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getTasksOverview"
+										},
+										{
+											"key": "UserID",
+											"value": "18"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "getAllTasks",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getAllTasks",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertTask",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "insertTask",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "Title",
+											"value": "New Task",
+											"type": "text"
+										},
+										{
+											"key": "Description",
+											"value": "This is a new task",
+											"type": "text"
+										},
+										{
+											"key": "Priority",
+											"value": "high",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "pending",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "StartTime",
+											"value": "2024-12-16 09:00:00",
+											"type": "text"
+										},
+										{
+											"key": "EndTime",
+											"value": "2024-12-16 11:00:00",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteTask",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteTask",
+											"type": "text"
+										},
+										{
+											"key": "TaskID",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateTask",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "updateTask",
+											"type": "text"
+										},
+										{
+											"key": "TaskID",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "Title",
+											"value": "Updated Task",
+											"type": "text"
+										},
+										{
+											"key": "Description",
+											"value": "Updated description of the task",
+											"type": "text"
+										},
+										{
+											"key": "Priority",
+											"value": "medium",
+											"type": "text"
+										},
+										{
+											"key": "Status",
+											"value": "in-progress",
+											"type": "text"
+										},
+										{
+											"key": "Progress",
+											"value": "50",
+											"type": "text"
+										},
+										{
+											"key": "StartTime",
+											"value": "2024-12-16 10:00:00",
+											"type": "text"
+										},
+										{
+											"key": "EndTime",
+											"value": "2024-12-16 12:00:00",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteTaskByDayplanID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteTaskByDayplanID",
+											"type": "text"
+										},
+										{
+											"key": "DayPlanID",
+											"value": "5",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "APIFollowers",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "getAllFllowers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getAllFollowers&GoalID=5\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getAllFollowers"
+										},
+										{
+											"key": "GoalID",
+											"value": "5\n"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertFollower",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=insertFollower&GoalID=3&UserID=3&FollowedAt=2024-12-16%2009:30:00",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "insertFollower"
+										},
+										{
+											"key": "GoalID",
+											"value": "3"
+										},
+										{
+											"key": "UserID",
+											"value": "3"
+										},
+										{
+											"key": "FollowedAt",
+											"value": "2024-12-16%2009:30:00"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteFollower",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=deleteFollower&FollowerID=7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "deleteFollower"
+										},
+										{
+											"key": "FollowerID",
+											"value": "7"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getFolloweUser",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api.php?action=getAllFollowersUser&UserID=18",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api.php"
+									],
+									"query": [
+										{
+											"key": "action",
+											"value": "getAllFollowersUser"
+										},
+										{
+											"key": "UserID",
+											"value": "18"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "getAllFolowers",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "getAllFollowers",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "5",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertFollower",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "insertFollower",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "FollowedAt",
+											"value": "2024-12-16 09:30:00",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteFollower",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "deleteFollower",
+											"type": "text"
+										},
+										{
+											"key": "FollowerID",
+											"value": "7",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "addCheckUserandGoalID",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "checkGoalAndUserExist",
+											"type": "text"
+										},
+										{
+											"key": "GoalID",
+											"value": "5",
+											"type": "text"
+										},
+										{
+											"key": "UserID",
+											"value": "18",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/DoAnCuoiKyAndroid/api_post.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"DoAnCuoiKyAndroid",
+										"api_post.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
